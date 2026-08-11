@@ -35,7 +35,9 @@ A 2D boids-style swarm simulation built with `pygame`. Agents move according to 
 ## Installation
 
 ```https://github.com/ArKhImede/2D-Swarm-Simulation.git```
+
 ```cd 2D-Swarm-Simulation```
+
 ```pip install pygame```
 
 ## Usage
