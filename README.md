@@ -1,8 +1,8 @@
-# 2D Swarm Simulation
+# 🦟 2D Swarm Simulation
 
 A 2D boids-style swarm simulation built with `pygame`. Agents move according to classic flocking rules (separation, alignment, cohesion) while reacting to obstacles, wind, and screen boundaries in real time.
 
-## Features
+## ⚙️ Features
 
 - **Flocking behaviour** — each agent steers based on nearby neighbours using separation, alignment, and cohesion forces
 - **Obstacles** — static circular obstacles repel nearby agents; click anywhere on the screen to add new obstacles
@@ -10,7 +10,7 @@ A 2D boids-style swarm simulation built with `pygame`. Agents move according to 
 - **Boundary handling** — agents are steered back into view when they approach the edges of the screen
 - **Simple visualization** — agents are drawn as triangles oriented along their velocity, with an on-screen wind indicator
 
-## Demo Controls
+## 🕹️ Demo Controls
 
 | Input | Action |
 |---|---|
@@ -19,7 +19,7 @@ A 2D boids-style swarm simulation built with `pygame`. Agents move according to 
 | `Down Arrow` | Decrease wind strength |
 | Close window | Quit the simulation |
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 .
@@ -68,7 +68,8 @@ Each `Agent` inherits flocking behaviour from `SwarmBehaviour`, which computes t
 
 These are combined, capped by a maximum steering force, and applied to each agent's velocity every frame. The `Environment` class then layers in obstacle repulsion, wind, and boundary corrections before agents are redrawn by `Visualization`.
 
-## Video
+## 🎥 Video
 
 Here is a video showing the simulation at work:
 
+https://github.com/user-attachments/assets/76be975f-c97d-4ae0-bace-89c42b540fbd
