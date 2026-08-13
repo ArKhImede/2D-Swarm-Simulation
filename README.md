@@ -22,7 +22,6 @@ A 2D boids-style swarm simulation built with `pygame`. Agents move according to 
 ## 🗂️ Project Structure
 
 ```
-.
 ├── main.py             # Entry point — game loop, event handling
 ├── agent.py             # Agent class (position, velocity, color)
 ├── swarm_behaviour.py    # Flocking logic: separation, alignment, cohesion
