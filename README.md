@@ -50,7 +50,9 @@ pip install pygame
 
 Run the simulation with:
 
-```python main.py```
+```
+python main.py
+```
 
 A window will open showing the swarm. Click to place obstacles and use the arrow keys to adjust wind strength while the simulation runs.
 
